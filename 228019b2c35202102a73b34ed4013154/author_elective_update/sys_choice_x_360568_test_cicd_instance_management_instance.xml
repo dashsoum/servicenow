@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="instance" table="x_360568_test_cicd_instance_management" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>instance</element>
+            <name>x_360568_test_cicd_instance_management</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-24 20:24:03</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>instance</sys_name>
+            <sys_package display_value="Test CICD" source="x_360568_test_cicd">228019b2c35202102a73b34ed4013154</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Test CICD">228019b2c35202102a73b34ed4013154</sys_scope>
+            <sys_update_name>sys_choice_x_360568_test_cicd_instance_management_instance</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-24 20:24:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>instance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SHARP TRAIN</label>
+            <language>en</language>
+            <name>x_360568_test_cicd_instance_management</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-24 20:24:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-24 20:24:03</sys_updated_on>
+            <value>SHARP TRAIN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>instance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SHARP DEMO</label>
+            <language>en</language>
+            <name>x_360568_test_cicd_instance_management</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-24 20:24:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-24 20:24:03</sys_updated_on>
+            <value>SHARP DEMO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>instance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ESP QAONE</label>
+            <language>en</language>
+            <name>x_360568_test_cicd_instance_management</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-24 20:24:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-24 20:24:03</sys_updated_on>
+            <value>ESP QAONE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>instance</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ESP DEMO</label>
+            <language>en</language>
+            <name>x_360568_test_cicd_instance_management</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-24 20:24:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-24 20:24:03</sys_updated_on>
+            <value>ESP DEMO</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

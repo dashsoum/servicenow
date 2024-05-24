@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4fa5dd3ac35202102a73b34ed40131a9" label="Instance Management" max_length="40" name="x_360568_test_cicd_instance_management" type="collection">
+        <element label="Comments" max_length="4000" name="comments" type="journal_list"/>
+        <element choice="1" label="Instance" max_length="40" name="instance" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SHARP TRAIN" sequence="0" value="SHARP TRAIN"/>
+                <element inactive_on_update="false" label="SHARP DEMO" sequence="1" value="SHARP DEMO"/>
+                <element inactive_on_update="false" label="ESP QAONE" sequence="2" value="ESP QAONE"/>
+                <element inactive_on_update="false" label="ESP DEMO" sequence="3" value="ESP DEMO"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="Platform" mandatory="true" max_length="40" name="platform" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="SHARP" sequence="0" value="SHARP"/>
+                <element inactive_on_update="false" label="ESP" sequence="1" value="ESP"/>
+            </choice>
+        </element>
+        <element label="POC Details" mandatory="true" max_length="40" name="poc_details" type="string"/>
+        <element label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="requestor"/>
+        </index>
+    </element>
+</database>
